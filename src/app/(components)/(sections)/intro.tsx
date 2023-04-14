@@ -1,12 +1,12 @@
 import Image from "next/image";
-import test from "../img/test.png";
+import profilePic from "../../img/profilePic.png";
 import { FaGithub, FaLinkedin, FaXing} from "react-icons/fa";
 
 export default function Introduction() {
   return (
-    <section id="intro" className="pt-24">
-      <div className="flex justify-around mx-auto">
-        <div className="mx-10">
+    <section id="intro" className="h-screen">
+      <div className="flex flex-wrap justify-between mx-auto h-screen items-center">
+        <div className="w-full order-2 lg:w-1/2 lg:order-1">
           <p className="mb-1 font-mono text-4xl text-gray-100 md:text-6xl">
             Hi, I&apos;m
           </p>{" "}
@@ -41,10 +41,10 @@ export default function Introduction() {
             </a>
           </div>
         </div>
-        <div className="mx-10 h-50">
+        <div className="h-50 w-full  order-1 lg:w-1/2 lg:order-2 flex justify-center">
           <Image
-            src={test}
-            alt="test"
+            src={profilePic}
+            alt="profilePic"
             priority
             placeholder="blur"
             height={300}

@@ -6,6 +6,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --cursor-color-rgb: 255, 166, 0;
+  --foreground-card-rgb: 255, 255, 255;
+  --background-card-start-rgb: 0, 0, 0;
+  --background-card-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +17,9 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --foreground-card-rgb: 0, 0, 0;
+    --background-card-start-rgb: 214, 219, 220;
+    --background-card-end-rgb: 255, 255, 255;
   }
 }
 
@@ -31,7 +38,7 @@ header {
 }
 
 #intro #name {
-  border-right: .15em solid orange;
+  border-right: .15em solid rgb(var(--cursor-color-rgb));
   animation:
     typing-name 3.5s steps(30, end);
   animation-fill-mode: forwards;
@@ -39,7 +46,7 @@ header {
 
 #intro #title {
   visibility: hidden;
-  border-right: .15em solid orange;
+  border-right: .15em solid rgb(var(--cursor-color-rgb));
   animation:
     typing-title 3.5s steps(30, end) 3.5s;
   animation-fill-mode: forwards;
@@ -57,7 +64,7 @@ header {
   }
 }
 
-@keyframes typing-title{
+@keyframes typing-title {
   from {
     width: 0
   }
@@ -66,6 +73,10 @@ header {
     width: 100%;
     visibility: visible;
     border-right: .15em solid transparent;
+  }
+
+  100% {
+    white-space: break-spaces;
   }
 }
 
