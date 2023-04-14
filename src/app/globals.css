@@ -18,10 +18,57 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+header {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+#intro #name {
+  border-right: .15em solid orange;
+  animation:
+    typing-name 3.5s steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+#intro #title {
+  visibility: hidden;
+  border-right: .15em solid orange;
+  animation:
+    typing-title 3.5s steps(30, end) 3.5s;
+  animation-fill-mode: forwards;
+}
+
+/* The typing effect */
+@keyframes typing-name {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%;
+    border-right: .15em solid transparent;
+  }
+}
+
+@keyframes typing-title{
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%;
+    visibility: visible;
+    border-right: .15em solid transparent;
+  }
+}
+
+.dp {
+  border-radius: 50%;
 }
