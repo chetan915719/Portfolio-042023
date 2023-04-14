@@ -212,7 +212,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 4974:
+/***/ 836:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -310,13 +310,13 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 4907:
+/***/ 3968:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4468, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 758));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7955));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4671));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7955))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 758))
 
 /***/ }),
 
@@ -436,7 +436,7 @@ function Header() {
 var next_image = __webpack_require__(2208);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./src/app/img/profilePic.png
-/* harmony default export */ const profilePic = ({"src":"/_next/static/media/profilePic.1e0a4ab4.png","height":1657,"width":1523,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAWlBMVEVGGRkzM00tExBteYJnPjRhTEY6O000OU8kHCpwfINlcXoJCRCxdGSPmqGqhnh2WU5DMS6Lb2VMT1p8goh7hZAqLD5aPzdcZHBvWlN9WVSvh3ynfW3EopeGkpyh4uUgAAAAFnRSTlMBgWrrnvQe+C/q7E+/86/Ewnmpv7Yp996PCgAAAAlwSFlzAAAOwwAADsMBx2+oZAAAADxJREFUeJxjYGDj5mAAAQEJMSYQzS8jzQKi+aSkeEC0oKQkiM8mJCbGysjBICLLKiEuzs4gzMvJxczJDgBBmAJUyRBEZAAAAABJRU5ErkJggg==","blurWidth":7,"blurHeight":8});
+/* harmony default export */ const profilePic = ({"src":"/Portfolio-042023//_next/static/media/profilePic.1e0a4ab4.png","height":1657,"width":1523,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAYAAAA1BOUGAAAA1ElEQVR42mMAA1FzfiAZCMS6DBDAyAADMW52K7vyU//n+rj8V2ZgiAViBmcFGWawZGNi0IYjS+f8X9VU8j/HWm0VEDO0R7qygCU39DTM3NDb+n9Hb+P/LRUZO4CYoa8gnRUsObc6O7grM+V/e3zk//oQr2YgZgg1tmRg0JH2EvKPTJudFez7v8jP/n9GUMAbDS2PCg9Tb3WG8rq2RTUdE/5XxQf9LY4K+B+VnP0/IiH7v4mJ70+G6ob2A73T5/2vaO7+lV5c87egpvV3bmXjT3Mbv98AyPVTdm9or18AAAAASUVORK5CYII=","blurWidth":7,"blurHeight":8});
 // EXTERNAL MODULE: ./node_modules/react-icons/fa/index.esm.js
 var index_esm = __webpack_require__(7202);
 ;// CONCATENATED MODULE: ./src/app/(components)/(sections)/intro.tsx
@@ -794,9 +794,9 @@ const WorkExperienceCard = ({ title , companyName , date , type , img  })=>{
 /* harmony default export */ const card = (WorkExperienceCard);
 
 ;// CONCATENATED MODULE: ./src/app/img/Deloitte_Logo.png
-/* harmony default export */ const Deloitte_Logo = ({"src":"/_next/static/media/Deloitte_Logo.8e1ec4af.png","height":656,"width":1614,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAFVBMVEUAAABMaXEAAAAQFQUAAAAAAAAXIgvLsZz5AAAAB3RSTlMNAIwTfQZYbcqrOQAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAB5JREFUeJwFwYEBAAAIgjDQ6v+T25BdUMgkc2JbqA8CmgAxbTUzEAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const Deloitte_Logo = ({"src":"/Portfolio-042023//_next/static/media/Deloitte_Logo.8e1ec4af.png","height":656,"width":1614,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAQklEQVR42mMAAiYg5gFiRijmULTgYWWAAahkFRCXA3EJEyuYrjUKFPNkgAJGIOYHYiEgFuEWYwKz/apURd78r2MEANthB7Yuxg1OAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":3});
 ;// CONCATENATED MODULE: ./src/app/img/celebal_logo.png
-/* harmony default export */ const celebal_logo = ({"src":"/_next/static/media/celebal_logo.e92e1c78.png","height":212,"width":640,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAHlBMVEUcHh0dHx8fGRkfHx8VFRXQRzriWEzIOCvQNyjjiIClhTKkAAAACXRSTlMmXEcUDf3WenL3rk9eAAAACXBIWXMAACxLAAAsSwGlPZapAAAAIElEQVR4nGNg5WBgYGZgZmHgZGNiZGJkZGJgZWdhAAEABAoAQFJpB3kAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const celebal_logo = ({"src":"/Portfolio-042023//_next/static/media/celebal_logo.e92e1c78.png","height":212,"width":640,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAaElEQVR4nGO8WVIw9/fLFzHvFq8ItFPTuu//78eH87///mVgYGAF4s+MN6ZM/M8oKMTw4eD+Neaz5k200daSePj5CxNQkheI3zCeszddwaCoFs744qmr4Y4D52wVFWQf/P33Dyj5B4QBNhUrlJ3pU8QAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":3});
 ;// CONCATENATED MODULE: ./src/app/(components)/(sections)/work.tsx
 
 
@@ -1027,7 +1027,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Deloitte_Logo.8e1ec4af.png","height":656,"width":1614,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAFVBMVEUAAABMaXEAAAAQFQUAAAAAAAAXIgvLsZz5AAAAB3RSTlMNAIwTfQZYbcqrOQAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAB5JREFUeJwFwYEBAAAIgjDQ6v+T25BdUMgkc2JbqA8CmgAxbTUzEAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/Portfolio-042023//_next/static/media/Deloitte_Logo.8e1ec4af.png","height":656,"width":1614,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAQklEQVR42mMAAiYg5gFiRijmULTgYWWAAahkFRCXA3EJEyuYrjUKFPNkgAJGIOYHYiEgFuEWYwKz/apURd78r2MEANthB7Yuxg1OAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":3});
 
 /***/ }),
 
@@ -1039,7 +1039,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/celebal_logo.e92e1c78.png","height":212,"width":640,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAHlBMVEUcHh0dHx8fGRkfHx8VFRXQRzriWEzIOCvQNyjjiIClhTKkAAAACXRSTlMmXEcUDf3WenL3rk9eAAAACXBIWXMAACxLAAAsSwGlPZapAAAAIElEQVR4nGNg5WBgYGZgZmHgZGNiZGJkZGJgZWdhAAEABAoAQFJpB3kAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/Portfolio-042023//_next/static/media/celebal_logo.e92e1c78.png","height":212,"width":640,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAaElEQVR4nGO8WVIw9/fLFzHvFq8ItFPTuu//78eH87///mVgYGAF4s+MN6ZM/M8oKMTw4eD+Neaz5k200daSePj5CxNQkheI3zCeszddwaCoFs744qmr4Y4D52wVFWQf/P33Dyj5B4QBNhUrlJ3pU8QAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":3});
 
 /***/ }),
 
@@ -1051,7 +1051,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/profilePic.1e0a4ab4.png","height":1657,"width":1523,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAWlBMVEVGGRkzM00tExBteYJnPjRhTEY6O000OU8kHCpwfINlcXoJCRCxdGSPmqGqhnh2WU5DMS6Lb2VMT1p8goh7hZAqLD5aPzdcZHBvWlN9WVSvh3ynfW3EopeGkpyh4uUgAAAAFnRSTlMBgWrrnvQe+C/q7E+/86/Ewnmpv7Yp996PCgAAAAlwSFlzAAAOwwAADsMBx2+oZAAAADxJREFUeJxjYGDj5mAAAQEJMSYQzS8jzQKi+aSkeEC0oKQkiM8mJCbGysjBICLLKiEuzs4gzMvJxczJDgBBmAJUyRBEZAAAAABJRU5ErkJggg==","blurWidth":7,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/Portfolio-042023//_next/static/media/profilePic.1e0a4ab4.png","height":1657,"width":1523,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAYAAAA1BOUGAAAA1ElEQVR42mMAA1FzfiAZCMS6DBDAyAADMW52K7vyU//n+rj8V2ZgiAViBmcFGWawZGNi0IYjS+f8X9VU8j/HWm0VEDO0R7qygCU39DTM3NDb+n9Hb+P/LRUZO4CYoa8gnRUsObc6O7grM+V/e3zk//oQr2YgZgg1tmRg0JH2EvKPTJudFez7v8jP/n9GUMAbDS2PCg9Tb3WG8rq2RTUdE/5XxQf9LY4K+B+VnP0/IiH7v4mJ70+G6ob2A73T5/2vaO7+lV5c87egpvV3bmXjT3Mbv98AyPVTdm9or18AAAAASUVORK5CYII=","blurWidth":7,"blurHeight":8});
 
 /***/ }),
 
@@ -1108,7 +1108,7 @@ const route_regex_namespaceObject = require("next/dist/shared/lib/router/utils/r
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [961,75], () => (__webpack_exec__(4974)));
+var __webpack_exports__ = __webpack_require__.X(0, [961,75], () => (__webpack_exec__(836)));
 module.exports = __webpack_exports__;
 
 })();

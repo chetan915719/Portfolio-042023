@@ -205,7 +205,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports.addBasePath = addBasePath;
 var _addPathPrefix = __webpack_require__(1751);
 var _normalizeTrailingSlash = __webpack_require__(5156);
-const basePath =  false || "";
+const basePath = "/Portfolio-042023" || 0;
 function addBasePath(path, required) {
     if (false) {}
     return (0, _normalizeTrailingSlash).normalizePathTrailingSlash((0, _addPathPrefix).addPathPrefix(path, basePath));
@@ -3588,7 +3588,7 @@ var _imageConfig = __webpack_require__(5843);
 var _imageConfigContext = __webpack_require__(744);
 var _warnOnce = __webpack_require__(618);
 var _imageLoader = _interop_require_default(__webpack_require__(9552));
-const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
+const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/Portfolio-042023/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
 const allImgs = new Map();
 let perfObserver;
 if (true) {
