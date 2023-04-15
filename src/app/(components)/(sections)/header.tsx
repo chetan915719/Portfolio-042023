@@ -34,7 +34,7 @@ export default function Header() {
             Work
           </a>
           <a
-            href="#blogs"
+            href="https://blog.chetantiwari.in"
             className="text-sm font-semibold leading-6 tracking-widest mx-5"
           >
             Blogs
