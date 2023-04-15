@@ -6,14 +6,7 @@ export default function Header() {
         aria-label="NavBar"
       >
         <div className="flex">
-          <a href="#" className="-m-1.5 p-1.5">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt="Hello"
-              className="h-8 w-auto"
-            />
-          </a>
+          
         </div>
         <div className="flex justify-end">
           <a

@@ -7,7 +7,7 @@ export default function Introduction() {
     <section id="intro" className="h-screen">
       <div className="flex flex-wrap justify-between mx-auto h-screen items-center">
         <div className="w-full order-2 lg:w-1/2 lg:order-1">
-          <p className="mb-1 font-mono text-4xl text-gray-100 md:text-6xl">
+          <p className="mb-1 font-mono text-4xl md:text-6xl">
             Hi, I&apos;m
           </p>{" "}
           <br className="block md:hidden" />

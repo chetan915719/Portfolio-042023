@@ -1,16 +1,14 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   experimental: {
     appDir: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "tailwindui.com",
-      },
-    ],
+    unoptimized: true,
   },
+  output: "export",
+  distDir: "dist",
 };
 
 module.exports = nextConfig
