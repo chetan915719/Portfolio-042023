@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profilePic from "../../img/profilePic.png";
+import profilePic from "../../img/profilePic.webp";
 import { FaGithub, FaLinkedin, FaXing} from "react-icons/fa";
 
 export default function Introduction() {
