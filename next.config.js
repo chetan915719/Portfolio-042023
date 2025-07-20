@@ -9,6 +9,7 @@ const nextConfig = {
   },
   output: "export",
   distDir: "dist",
+  basePath: "/Portfolio-042023",
 };
 
 module.exports = nextConfig
