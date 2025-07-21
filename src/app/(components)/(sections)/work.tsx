@@ -36,7 +36,7 @@ export default function Work() {
       </div>
       <div className="flex flex-wrap justify-between pt-10">
         {experienceData.map((data, index) => (
-          <div key={uuidv4()} className="w-full lg:w-1/2 xl:w-1/3 p-4">
+          <div key={uuidv4()} className="w-full lg:w-1/2 xl:w-1/3 p-4 h-60">
             <WorkExperienceCard
               title={data.title}
               companyName={data.company}

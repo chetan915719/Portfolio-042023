@@ -5,9 +5,7 @@ export default function Header() {
         className="mx-auto flex items-center justify-between p-6 lg:px-8"
         aria-label="NavBar"
       >
-        <div className="flex">
-          
-        </div>
+        <div className="flex"></div>
         <div className="flex justify-end">
           <a
             href="#intro"
@@ -34,7 +32,7 @@ export default function Header() {
             Work
           </a>
           <a
-            href="https://blog.chetantiwari.in"
+            href="#blogs"
             className="text-sm font-semibold leading-6 tracking-widest mx-5"
           >
             Blogs

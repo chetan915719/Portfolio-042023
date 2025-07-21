@@ -33,7 +33,7 @@ export default function Skills() {
           <h2 className="text-center text-xl">Data Engineering</h2>
           <SkillBar skillName={"AWS Glue - 4"} skillLevel={70} />
           <SkillBar skillName={"PySpark - 4"} skillLevel={80} />
-          <SkillBar skillName={"AirFlow - 3"} skillLevel={60} />
+          <SkillBar skillName={"Databricks - 3"} skillLevel={60} />
         </div>
       </div>
     </section>

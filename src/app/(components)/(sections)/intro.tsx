@@ -19,7 +19,7 @@ export default function Introduction() {
             id="title"
             className="text-2xl h-18 overflow-x-hidden whitespace-nowrap"
           >
-            Full Stack Developer | Data Engineer | Traveller
+            Data Engineer | Full Stack Developer | Traveler
           </p>
           <div className="flex my-10">
             <a

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WorkExperienceCard = ({ title, companyName, date, type, img }: any) => {
   return (
-    <div className="md:flex shadow-2xl">
+    <div className="md:flex shadow-2xl h-full">
       <div className="w-full p-4 md:p-5 bg-gray-800 text-white">
         <div className="text-lg font-semibold uppercase mb-1">{title}</div>
         <div className="text-sm italic">{companyName}</div>

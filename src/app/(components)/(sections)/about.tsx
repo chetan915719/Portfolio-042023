@@ -15,39 +15,54 @@ export default function About() {
       </div>
       <div className="my-20 text-lg tracking-widest">
         <p>
-          Hello! I am a full-stack developer based in India with a passion for
-          technology and a goal to become a solution architect.
+          Hello! I&#39;m a Data Engineer and full-stack developer based in
+          India, with a deep interest in scalable system design and a long-term
+          goal of becoming a solution architect.
         </p>
         <p>
-          I started my career in 2020 and have gained experience working with
-          Angular, Django, and Node.js. I&apos;ve also worked on projects using
-          Azure Cloud and Azure DevOps, which has given me a strong foundation
-          in cloud computing.
+          I began my career in 2020, initially working on full-stack development
+          using Angular, Django, and Node.js. During this phase, I built several
+          enterprise-grade applications and gained hands-on experience with
+          Azure Cloud and Azure DevOps, laying a strong foundation in
+          cloud-native development.
         </p>
         <p>
-          Currently, I&apos;m working as a data engineer using PySpark, which
-          has helped me develop my skills in data processing and analysis.
+          Over time, I transitioned into data engineering and currently work as
+          a Module Lead in a large-scale healthcare data engineering project. My
+          work primarily involves developing distributed ETL pipelines using
+          PySpark, automating workflows with Control-M, and ensuring
+          HIPAA-compliant handling of sensitive healthcare data.
         </p>
         <p>
-          My favourite projects are the ones that challenge me and allow me to
-          learn something new while creating an impact on society. I believe
-          that technology should be used for the betterment of society, and I
-          strive to make that a reality.
+          My professional journey has helped me become proficient in
+          technologies like Apache Spark, Hive, HDFS, AWS, Azure, and CI/CD
+          pipelines, along with solid skills in designing robust, secure, and
+          maintainable data solutions across industries including healthcare and
+          banking.
         </p>
         <p>
-          When I&apos;m not working, I love to travel and explore new places.
-          Meeting locals and experiencing new cultures is one of my favourite
-          things to do.
+          I enjoy working on projects that challenge conventional thinking and
+          offer opportunities to build impactful systems that make a difference.
+          I believe in using technology not just for business optimization, but
+          for meaningful, positive change.
         </p>
         <p>
-          For me, work is a means to live, not the other way around. I believe
-          in maintaining a healthy work-life balance to achieve long-term
-          success and happiness.
+          Outside of work, I love to travel and immerse myself in new cultures.
+          Exploring local life and learning from diverse experiences keeps me
+          grounded and inspired.
         </p>
         <p>
-          If you&apos;re interested in working together or just want to say hi,
-          please feel free to connect with me on{" "}
-          <a href="https://www.linkedin.com/in/chetan-tiwari-5055233/">
+          For me, work is a means to live a fulfilling life, not the other way
+          around. I strongly believe in a healthy work-life balance to foster
+          sustainable growth, creativity, and happiness.
+        </p>
+        <p>
+          If you&#39;re interested in collaborating or would just like to
+          connect, feel free to reach out on{" "}
+          <a
+            href="https://www.linkedin.com/in/chetan-tiwari-5055233/"
+            target="_blank"
+          >
             LinkedIn
           </a>{" "}
           or email me at{" "}
